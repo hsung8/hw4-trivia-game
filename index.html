@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Challenge: jQuery trivia quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    
+</head>
+
+<body>
+    <div class="highestScore">
+        <h6><a href='highestScore.html'>View Highest Score</a></h6>
+        <h5>Timer: 0</h5>
+    </div>
+
+    <div class="container centerP" id="main-container">
+        <main class="col-12">
+            <form id="quiz-form">
+                <h1>Coding Quiz Challenge</h1>
+                <br>
+                <p>Try to answer the following code-related questions within the time limit. <br> Keep in mind that
+                    incorrect answers will penalize your scoreTime by ten seconds!</p>
+
+
+                <button type="button" class="btn" id="start-quiz">Start Quiz</button>
+                <div id="questionDisplay" class=questionsFont></div>
+                <div id="answerDisplay"></div>
+            </form>
+        </main>
+    </div>
+    
+    <script src='../02-Homework/app.js'></script>
+</body>
+
+</html>

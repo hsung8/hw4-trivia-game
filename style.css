@@ -1,0 +1,73 @@
+.highestScore {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+    color: purple;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.questionsFont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h5 {
+    position: absolute;
+    top: 20px;
+    right:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centerP {
+    text-align: center;
+}
+
+.leftP {
+    text-align: left;
+    margin-left: 20%;
+}
+
+.btn,
+.btn:visited
+ {
+    background-color: purple;
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+    background-color: rgba(190, 84, 190, 0.61);
+    border: none;
+    color: white;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
